@@ -1,0 +1,14 @@
+{
+  "name": "cdlib-email",
+  "version": "0.0.1",
+  "description": "email utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Craig David",
+  "license": "MIT",
+  "dependencies": {
+    "emailjs": "^0.3.16"
+  }
+}
