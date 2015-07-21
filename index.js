@@ -20,15 +20,15 @@ function sendEmail(msgEmail) {
             cc: '',
             subject: msgEmail.subject
         };
-    server.send(message, function (err, message) {
+    server.send(msgEmail.message, function (err, message) {
         //console.log(err || message);
         //console.log(err);
 
         if (err !== null) {
-            console.log('sendHtml: Error', err);
+            console.log('sendEmail: Error', err);
             //             reject('sendHtml: Error');
         } else {
-            console.log('sendHtml: No Error');
+            console.log('sendEmail: No Error');
             //            resolve('sendHtml: No Error');
         }
     });
@@ -87,3 +87,4 @@ var msgEmail = {
 
 exports.msgEmail = msgEmail;
 exports.sendEmailHtml = sendEmailHtml;
+exports.sendEmail = sendEmail;
