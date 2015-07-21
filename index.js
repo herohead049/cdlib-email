@@ -20,7 +20,7 @@ function sendEmail(msgEmail) {
             cc: '',
             subject: msgEmail.subject
         };
-    server.send(msgEmail.message, function (err, message) {
+    server.send(message, function (err, message) {
         //console.log(err || message);
         //console.log(err);
 

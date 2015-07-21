@@ -11,7 +11,7 @@ emailMsg.to = 'foo@bar.com';
 emailMsg.from = 'bar@foo.com';
 emailMsg.subject = 'some subject';
 emailMsg.htmlBody = '<b>Here</b> is the body in Html';
-emailMsg.message = 'Here is the body as text';
+emailMsg.body = 'Here is the body as text';
 
 //send message
 cdMail.sendEmailHtml(emailMsg);  //send as html
