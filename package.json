@@ -1,26 +1,22 @@
 {
-    "name": "cdlib-email",
-    "version": "0.0.1",
-    "description": "email utils",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "Craig David",
-    "license": "MIT",
-    "dependencies": {
-        "emailjs": "^0.3.16"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/herohead049/cdlib-email.git"
-    },
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/herohead049/cdlib-email/issues"
-    },
-    "homepage": "https://github.com/herohead049/cdlib-email#readme",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    }
+  "name": "cdlib-email",
+  "version": "0.0.2",
+  "description": "email utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Craig David",
+  "license": "MIT",
+  "dependencies": {
+    "emailjs": "^0.3.16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herohead049/cdlib-email.git"
+  },
+  "bugs": {
+    "url": "https://github.com/herohead049/cdlib-email/issues"
+  },
+  "homepage": "https://github.com/herohead049/cdlib-email#readme"
 }
