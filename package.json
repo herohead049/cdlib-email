@@ -1,6 +1,6 @@
 {
   "name": "cdlib-email",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "email utils",
   "main": "index.js",
   "scripts": {
